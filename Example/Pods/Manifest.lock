@@ -1,0 +1,30 @@
+PODS:
+  - FBSnapshotTestCase (2.0.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.4)
+  - FBSnapshotTestCase/Core (2.0.4)
+  - FBSnapshotTestCase/SwiftSupport (2.0.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - KKGallery (0.1.0)
+  - MBProgressHUD (0.9.1)
+  - RFQuiltLayout (1.1.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - KKGallery (from `../`)
+  - MBProgressHUD (~> 0.9)
+  - RFQuiltLayout (~> 1.1)
+
+EXTERNAL SOURCES:
+  KKGallery:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: d94cf34841c9e77390e29009e8e2713479d48753
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  KKGallery: bc9aca2446ac24ea400ee82436af8ab972f38d73
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  RFQuiltLayout: aa28fc2d4a262fbca7caa43d9d8ef4b4726c8cd4
+
+COCOAPODS: 0.38.2

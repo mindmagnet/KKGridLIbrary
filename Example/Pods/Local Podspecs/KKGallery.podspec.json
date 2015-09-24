@@ -1,0 +1,25 @@
+{
+  "name": "KKGallery",
+  "version": "0.1.0",
+  "summary": "Gallery grid collection view for displaing photos",
+  "description": "Use this library in order to add an text view taht recognise tags prfixed by\n# and retuns them into an array.\nThis is similar to facebook tags recogniser.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KKGallery",
+  "license": "MIT",
+  "authors": {
+    "Daniel Mandea": "daniel.mandea@mindmagnetsoftware.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KKGallery.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "KKGallery": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
